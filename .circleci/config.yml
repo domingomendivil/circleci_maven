@@ -47,6 +47,7 @@ jobs:
 
       - store_artifacts:
           path: /tmp/artifacts
+          destination: artifact-file 
 
 
 # Invoke jobs via workflows
